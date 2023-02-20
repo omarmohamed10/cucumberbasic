@@ -11,7 +11,7 @@ import cucumber.api.java.Before;
 public class Hook extends BaseUtil{
 
 
-    private BaseUtil base;
+    public BaseUtil base;
 
     public Hook(BaseUtil base) {
         this.base = base;
